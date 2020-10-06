@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RegisterViewController.swift
 //  CoordinatorExample
 //
 //  Created by Gustavo Vergara Garcia on 06/10/20.
@@ -8,13 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RegisterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        title = "Registro"
+        
+        self.view.backgroundColor = .systemIndigo
     }
 
-
 }
-
